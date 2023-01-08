@@ -1,4 +1,4 @@
-# TurkishAirlines-searchFlightChallenge
+# TurkishTechnology-searchFlightChallenge
 
 ## Available Scripts
 
