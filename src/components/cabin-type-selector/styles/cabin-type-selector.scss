@@ -1,0 +1,26 @@
+.cabin-type-selector {
+  width: 85px;
+  position: relative;
+}
+
+.cabin-type-selector__popover {
+  margin-top: 12px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.cabin-type-selector__popover-paper {
+  &::before {
+    content: '';
+    top: 0px;
+    width: 2px;
+    left: 55%;
+    z-index: 2;
+    rotate: 45deg;
+    position: absolute;
+    background-color: white;
+    border: 1px solid white;
+    transform: translateX(-50%);
+    border: 4px solid transparent;
+  }
+}
